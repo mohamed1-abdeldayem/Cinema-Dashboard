@@ -1,4 +1,4 @@
-## Data Cleaning Process (Focused on Key Columns)
+## 🧹 Data Cleaning Process (Focused on Key Columns)
 
 The following columns in the Kaggle movie dataset were cleaned and processed for analysis:
 
@@ -32,7 +32,7 @@ After cleaning, the dataset contains:
 The dataset is now fully prepared for analysis, visualization, and modeling tasks.
 
 
-## EDA and Visualizations  
+## 📊 EDA and Visualizations  
 - **Histograms** were used to examine the distribution of numerical features such as *Watch Time*, *Votes*, and *Gross Revenue*. These plots revealed the spread of values and helped identify skewness and possible outliers.  
 
 ![](/Visualiztions%20Images/plot_1.png)  
@@ -86,6 +86,24 @@ The dataset is now fully prepared for analysis, visualization, and modeling task
 
 
 ---
+
+## 🗄️ Loading Data into SQL Database
+
+The cleaned dataset was loaded into a SQL Server database named **MoviesDB**, inside a table called **Movies**.  
+This allows for structured queries, integration with BI tools, and scalable analysis.  
+
+### Key SQL Analysis Performed:
+- Count of total movies in the dataset.  
+- Top 10 movies by gross revenue.  
+- Average Meatscore across all movies.  
+- Distribution of movies by watch time (Short, Medium, Long).  
+- Identification of the single highest-grossing movie.  
+- Yearly revenue trends.  
+- Relationship between votes, gross revenue, and Meatscore (for correlation analysis).  
+- Bottom 10 movies by Meatscore (lowest-rated).  
+
+---
+
 
 ## 📊 Power BI Dashboard
 
