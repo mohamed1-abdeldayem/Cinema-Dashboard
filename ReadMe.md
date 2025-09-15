@@ -122,7 +122,7 @@ This allows for structured queries, integration with BI tools, and scalable anal
 
 ---
 
-### 🔹 Page 2 — Revenue & Popularity (الإيرادات والشعبية)
+### 🔹 Page 2 — Revenue & Popularity
 
 **Goal:** Highlight the relationship between revenue, votes, and movie popularity.
 
