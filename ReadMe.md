@@ -104,10 +104,15 @@ The dataset is now fully prepared for analysis, visualization, and modeling task
 
 ---
 
-### 🔹 Page 2 — Analysis
-- **Scatter Plot:** Votes (X) vs Gross Revenue (Y), with Meatscore as bubble size.  
-- **Histogram (Bar Chart with Bins):** Distribution of Meatscore values.  
+### 🔹 Page 2 — Revenue & Popularity (الإيرادات والشعبية)
 
-![Analysis Dashboard](/Dashboard%20Images/Page2.jpg)
+**Goal:** Highlight the relationship between revenue, votes, and movie popularity.
 
-**Result:** The scatter plot confirms a positive relationship between audience votes and revenue, while bubble size highlights higher-rated films. The histogram shows a fairly normal distribution of Meatscore, with the majority of movies clustering in mid-to-high ratings.
+![Revenue & Popularity Dashboard](/Dashboard%20Images/Page2.jpg)
+
+**Results:**
+- **Bar Chart:** A few blockbuster movies dominate revenue compared to the rest.  
+- **Scatter Plot:** Movies with more votes generally generate higher revenue. Outliers exist, with some films having high votes but lower revenue.  
+- **Line Chart:** Gross revenue shows variation across years, with peaks in certain periods reflecting industry hits or blockbuster releases.  
+- **Card:** Highlights the single movie with the highest revenue in the dataset for quick reference.
+
