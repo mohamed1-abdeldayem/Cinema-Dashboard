@@ -83,3 +83,31 @@ The dataset is now fully prepared for analysis, visualization, and modeling task
 - Exploratory analysis revealed both expected patterns (e.g., more votes lead to higher revenue) and unexpected anomalies (extreme outliers in revenue and ratings).  
 - Visualizations provided evidence of trends in movie production and performance across different years.  
 - These insights set a strong foundation for predictive modeling, recommendation systems, or deeper statistical research on movie success factors.  
+
+
+---
+
+## 📊 Power BI Dashboard
+
+### 🔹 Page 1 — Overview
+- **KPIs Cards:**  
+  - Total Movies  
+  - Average Meatscore  
+  - Average Watch Time  
+  - Total Gross Revenue  
+- **Donut Chart:** Distribution of movies by watch time categories (Short – Medium – Long).  
+- **Bar Chart:** Top 10 movies by Gross Revenue.  
+
+![Overview Dashboard](/Dashboard%20Images/Page1.jpg)
+
+**Result:** The overview highlights total dataset size, general averages, and identifies the top 10 highest-grossing movies. Most films fall into the medium-length category, while a small group of movies dominates total revenue.
+
+---
+
+### 🔹 Page 2 — Analysis
+- **Scatter Plot:** Votes (X) vs Gross Revenue (Y), with Meatscore as bubble size.  
+- **Histogram (Bar Chart with Bins):** Distribution of Meatscore values.  
+
+![Analysis Dashboard](/Dashboard%20Images/Page2.jpg)
+
+**Result:** The scatter plot confirms a positive relationship between audience votes and revenue, while bubble size highlights higher-rated films. The histogram shows a fairly normal distribution of Meatscore, with the majority of movies clustering in mid-to-high ratings.
