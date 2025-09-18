@@ -116,7 +116,7 @@ This allows for structured queries, integration with BI tools, and scalable anal
 - **Donut Chart:** Distribution of movies by watch time categories (Short – Medium – Long).  
 - **Bar Chart:** Top 10 movies by Gross Revenue.  
 
-![Overview Dashboard](/Dashboard%20Images/Page1.jpg)
+![Overview Dashboard](/Dashboard%20Images/page_1.png)
 
 **Result:** The overview highlights total dataset size, general averages, and identifies the top 10 highest-grossing movies. Most films fall into the medium-length category, while a small group of movies dominates total revenue.
 
@@ -126,7 +126,7 @@ This allows for structured queries, integration with BI tools, and scalable anal
 
 **Goal:** Highlight the relationship between revenue, votes, and movie popularity.
 
-![Revenue & Popularity Dashboard](/Dashboard%20Images/Page2.jpg)
+![Revenue & Popularity Dashboard](/Dashboard%20Images/page_2.png)
 
 **Results:**
 - **Bar Chart:** A few blockbuster movies dominate revenue compared to the rest.  
